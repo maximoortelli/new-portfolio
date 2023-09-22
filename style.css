@@ -803,7 +803,7 @@ section {
     border: 2px solid #0ef;
     box-shadow: 1px 1px 10px #0ef;
     object-fit: contain;
-    background: linear-gradient(to top, #3b3b3b, #999, rgba(192, 192, 192, 0.990));
+    background: linear-gradient(to top, #3b3b3b, #999, rgba(192, 192, 192, 0.591));
   }
 
   .desktop-card-img-left {
@@ -908,6 +908,7 @@ section {
 
 img.punto {
     margin-bottom: 2px;
+    background: url(./imagenes/Counter.png);
 }
 
 /*Segunda card escritorio*/
@@ -962,7 +963,7 @@ img.punto {
   .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items:  baseline;
     gap: 3rem;
     padding: 1%;
     padding-top: 50px;
@@ -1006,11 +1007,11 @@ img.punto {
 
 .contact-text h2 {
     margin: 15px 0;
+    align-self: baseline;
     color: rgb(228, 228, 228);
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 45px;
-    padding-top: 55px;
     margin-top: -50px;
     text-shadow: 0 0 3px #0ef;
 }
@@ -1267,6 +1268,7 @@ img.punto {
         height: 6%;
         margin-left: 4%;
         margin-top: 14vh;
+
     }
 
     .about-text h2 {
@@ -1294,8 +1296,6 @@ img.punto {
         font-size: 2.5rem;
     }
 
-
-
     .container {
          margin-top: -25vh; 
     }
@@ -1303,7 +1303,7 @@ img.punto {
     .Technical-bars .bar .progress-line {
         position: relative;
         border-radius: 10px;
-        width: 180%;
+        width: 190%;
         height: 8px;
         background-color: #000000;
         margin-bottom: 20px;   
@@ -1321,17 +1321,26 @@ img.punto {
         margin-left: -3vw;
     }
 
+    .contac-form {
+        margin-bottom: 100vh;
+    }
+
+    .contact-text {
+        margin-left: 7vw;
+    }
+
     .contact-text h2 {
-        margin-top: -5vh;
+        margin-top: 5vh;
         font-size: 1.2rem;
     }
 
     .contact-text p {
         font-size: 0.7rem;
+        width: 90%;
     }
 
     .contact-form h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .contact-icons i {
@@ -1341,10 +1350,47 @@ img.punto {
 
     .contact-form form input { 
         padding: 8px;
+        width: 70%;
     }
 
     .contact-form textarea {
         height: 32vh;
+        width: 68%;
+    }
+
+    .contact-form form .send  {
+        width: 80%;
+    }
+
+    .card2 {
+        padding: 2%;
+    }
+
+    .desktop-card-img {
+        width: 49%;
+        margin-left: 1vw;
+        filter: brightness(140%);
+    }
+
+    .card2 {
+        font-size: 0.4rem;
+    }
+
+    .button-card {
+        margin-top: -1vh;
+        margin-left: 1vh;
+    }
+
+    .categories li {
+        margin-bottom: -1vh;
+        margin-left: 1vw;
+        width: 3vw;
+        height: 3vh;
+        font-size: 0.4rem;
+    }
+
+    #ruby {
+        width: 20%; 
     }
 }
 
