@@ -1244,10 +1244,6 @@ img.punto {
 
 @media (max-width: 1000px) {
 
-    .home {
-        background: url(./imagenes/Perfil.png) no-repeat;
-    }
-
     .contact-text h2 {
         margin-top: -9%;
     }
@@ -1266,9 +1262,14 @@ img.punto {
 @media (max-width: 768px) {
     .imgabout {
         height: 6%;
-        margin-left: 4%;
-        margin-top: 14vh;
+        margin-left: -2%;
+        margin-top: 0vh;
 
+    }
+
+    .about-text {
+        margin-left: -10%;
+        margin-top: -16%;
     }
 
     .about-text h2 {
@@ -1288,7 +1289,7 @@ img.punto {
     }
 
     div .sub-titleup {
-        margin-left: 28vh;
+        margin-left: 22vh;
         font-size: 2.5rem;
     }
 
@@ -1337,15 +1338,17 @@ img.punto {
     .contact-text p {
         font-size: 0.7rem;
         width: 90%;
+        margin-bottom: -5vh;
     }
 
     .contact-form h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .contact-icons i {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
+        align-self: baseline;
     }
 
     .contact-form form input { 
@@ -1368,7 +1371,7 @@ img.punto {
 
     .desktop-card-img {
         width: 49%;
-        margin-left: 1vw;
+        margin-left: 0vw;
         filter: brightness(140%);
     }
 
@@ -1379,22 +1382,113 @@ img.punto {
     .button-card {
         margin-top: -1vh;
         margin-left: 1vh;
+        height: 4vh;
     }
 
     .categories li {
         margin-bottom: -1vh;
         margin-left: 1vw;
-        width: 3vw;
-        height: 3vh;
-        font-size: 0.4rem;
+        width: 4vw;
+        height: 2vh;
+        font-weight: 600;
+        font-size: 0.5rem;
+
     }
 
     #ruby {
-        width: 20%; 
+        width: 30%;
+    }
+
+    img.punto {
+        margin-bottom: 1.3vh;
+        background: url(./imagenes/Counter.png);
+    }
+
+    .card2 h3 {
+        margin-top: -17vh;
+
+    }
+
+    .card-description {
+        margin-left: 1vw;
+    }
+
+    .company {
+        margin-left: 1vw;
+        margin-bottom: -1vh;
+        margin-top: 2vh;
+    }
+
+    .card2 h3 {
+        margin-left: 2%;
+        margin-bottom: -2vh;
+    }
+
+    .card h3 {
+        margin-left: 2%;
+        margin-bottom: -2vh;
+        font-size: 1.3rem;
+    }
+
+    .card-right {
+        margin-bottom: 1vh;
+    }
+
+    .sub-titledown  {
+        transform: translate(-8%, 30%);
+    }
+
+    .alineo {
+        margin-left: -1vw;
+    }
+
+    .read {
+        margin-bottom: 2vh;
+    }
+
+    
+    .services-list div p {
+        font-size: 0.6rem;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 2vw;
+    }
+
+    .header {
+        width: 105%;
+        background-size: 400px 400px
+    }
+
+    .home-content h3 {
+        font-size: 1rem;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 12px;
+        width: 66.4%;
+        margin-top: -5vh;
+    }
+
+    .home {
+        background-size: 350px 350px;
+        background-position: 100% 35%;
+    }
+
+    .desktop-card-img-left {
+        margin-right: 3vh;
+    }
+
+    .services-list div h2 {
+        font-size: 1.3rem;
+        margin-top: -4vh;
     }
 }
-
-
 
 
 
