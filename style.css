@@ -1451,6 +1451,10 @@ img.punto {
     .about-text h4 {
         font-size: 20px;
     }
+
+    .desktop-card-img {
+        margin-left: 0.1vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1890,15 +1894,14 @@ img.punto {
     }
 
     .desktop-card-img-left {
-        margin-left: -2vh;
+        margin-left: 4vh;
+        width: 80%;
     }
 
     .desktop-card-img {
         margin-left: 6%;
     }
-
-    .categories li p{
-    }
+    
 }
 
 @media (min-width:480px) {
