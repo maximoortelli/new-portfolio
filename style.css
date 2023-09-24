@@ -1691,6 +1691,7 @@ img.punto {
 
     .desktop-card-img-left {
         margin-right: 5vh;
+        margin-left: 1.5vw;
     }
 
     .services-list div h2 {
@@ -1714,6 +1715,9 @@ img.punto {
         width: 100px;
     }
 
+    .button-card {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 630px) {
@@ -1861,7 +1865,7 @@ img.punto {
     }
 
     .conttext {
-        margin-left: 15%;
+        margin-left: 3%;
         margin-top: 20%;
     }
 
@@ -1883,6 +1887,17 @@ img.punto {
         text-align: center;
         margin: auto;
         margin-bottom: 10%;
+    }
+
+    .desktop-card-img-left {
+        margin-left: -2vh;
+    }
+
+    .desktop-card-img {
+        margin-left: 6%;
+    }
+
+    .categories li p{
     }
 }
 
