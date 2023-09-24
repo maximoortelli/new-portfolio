@@ -10,7 +10,21 @@
 </head>
 <body>
      <header class="header">
+
         <a href="index.html" class="logo">Portfolio</a>
+
+        <div id="myOverlay" class="overlay"></div>
+
+    <span class="openMenu" onclick="openMenu()">&#9776;</span>
+
+    <div id="myMenu" class="menu" id="menu">
+      <a href="javascript:void(0)" class="closeBtn" onclick="closeMenu()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Skill</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
 
      <!--NAVBAR-->
      <nav class="navbar">
@@ -20,11 +34,29 @@
             <a href="#portfolio" style="--i:4">Portfolio</a>
             <a href="#contact" style="--i:5">Contact</a>
      </nav>
+<!--
+     <section class="menumobile">
+           
+        <div>
+
+            <div class="exit">
+                <img class="close" src="./media/Icon.png"></img>
+            </div>
+
+            <ul class="connects">
+                <li><a href="#portfolio-a" id="portfolio">Portfolio</a></li>
+                <li><a href="#about-b" id="about">About</a></li>
+                <li><a href="#contact-c" id="contact">Contact</a></li>
+            </ul>
+         </div>
+
+     </section> -->
+
      </header>
 
      <!--HOME-->
      <section class="home">
-        <div class="home-content">
+        <div class="home-content" id="home-content">
              <h3>Hello, it´s Me</h3>
              <h1>Maximo Ortelli</h1>
              <h3>And I'm a <span class="text"></span></h3>
@@ -273,7 +305,7 @@
 
         <div class="card flex-column card-left size">
             <div class="card-text">
-                <div>
+                <div class="conttext">
 
                     <h3 class="card-item">
                         NETFLIX PROYECT
@@ -376,7 +408,7 @@
 
         <div class="card flex-column card-left size">
             <div class="card-text">
-                <div>
+                <div class="conttext">
 
                     <h3 class="card-item">
                     WHATSAPP WEB
@@ -507,6 +539,8 @@
             </form>
          </div>
      </section>
-    <script src="script.js"></script>
+
+     <script src="./menu.js"></script>
+     <script src="./script.js"></script>
 </body>
 </html>
