@@ -1459,6 +1459,10 @@ img.punto {
     .desktop-card-img {
         margin-left: 0.1vw;
     }
+
+    .contact-form textarea {
+        height: 320px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1564,6 +1568,7 @@ img.punto {
 
     .contact-form form .send  {
         width: 80%;
+        text-align: center;
     }
 
     .card2 {
@@ -1727,9 +1732,6 @@ img.punto {
         font-size: 10px;
     }
 
-    .contact-form textarea  {
-        height: auto;
-    }
 }
 
 @media (max-width: 630px) {
@@ -1813,7 +1815,7 @@ img.punto {
 
     .home-content p {
         text-align: center;
-        padding-left: 90px;
+        margin: auto;
     }
 
     .about {
@@ -1939,10 +1941,6 @@ img.punto {
         margin-left: -0.5vw;
     }
 
-    .contact-form textarea  {
-        height: 56vh;
-    }
-
     .contact-form form {
         margin-left: -5vw;
     }
@@ -1957,6 +1955,52 @@ img.punto {
     /* smartphones, Android phones, landscape iPhone */
 }
 
-@media (min-width:320px) {
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:375px) and (min-height: 667px) {
+    .imgabout {
+        transform: translate( -8%, -150%);
+    }
+
+    .home-content p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .header {
+        width: auto;
+    }
+
+    .container {
+        margin-top: 250%;
+    }
+
+    .about-text {
+        margin-top: -40vh;
+    }
+
+    div .sub-titleup {
+        margin-left: 0;
+        transform: translate( -10% );
+    }
+
+    .services-list div {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        margin-left: -47%;
+        width: 150%;
+    }
+
+    .borderskills {
+        border-radius: 10vw;
+        padding-bottom: 20vh;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+
+    .Technical-bars .bar .progress-line .react  {
+        width: 300vw;
+    }
+
 }
