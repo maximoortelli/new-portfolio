@@ -1999,8 +1999,18 @@ img.punto {
          align-items: center;
     }
 
-    .Technical-bars .bar .progress-line .react  {
-        width: 300vw;
+    .Technical-bars .bar .progress-line  {
+        width: 300%;
+        margin-left: -27vw;
     }
 
+    .heading1 {
+        margin-left: -6vw;
+    }
+
+    .radial-bars {
+        margin-left: -10%;
+        margin-right: -20%;
+        width: 500%;
+    }
 }
